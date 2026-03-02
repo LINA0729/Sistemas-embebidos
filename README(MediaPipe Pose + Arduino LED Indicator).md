@@ -1,12 +1,8 @@
-Descripción del proyecto
-El proyecto utiliza MediaPipe Pose para identificar la postura del cuerpo en tiempo real desde la cámara.
+Sistema de Detección de Postura con Visión Artificial y Control Embebido
 
-El sistema determina si una persona esta:
-🟢 Sentada
-🔴 Parada
+Descripción General.
 
-Según la postura detectada, se envía una señal por puerto serial a Arduino para encender un LED:
+Este proyecto pone en marcha un sistema de detección de la postura en tiempo real que permite saber si una persona está sentada o de pie, mediante visión por computadora y procesamiento geométrico de puntos del cuerpo.
 
-Estado  	Acción      Arduino
-Sentado 	LED Verde   ON
-Parado	  LED Rojo    ON
+El sistema incorpora procesamiento en Python y comunicación serial con un Arduino Uno, que opera como módulo de salida física a través de LEDs indicadores.
+
