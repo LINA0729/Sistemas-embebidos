@@ -6,3 +6,13 @@ Este proyecto pone en marcha un sistema de detección de la postura en tiempo re
 
 El sistema incorpora procesamiento en Python y comunicación serial con un Arduino Uno, que opera como módulo de salida física a través de LEDs indicadores.
 
+Objetivo
+
+Demostrar la integración entre:
+
+* Visión artificial
+* Análisis geométrico
+* Comunicación serial
+* Sistemas embebidos
+
+Flujo de funcionamiento.
