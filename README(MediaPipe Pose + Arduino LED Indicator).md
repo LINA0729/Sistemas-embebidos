@@ -6,7 +6,7 @@ Este proyecto pone en marcha un sistema de detección de la postura en tiempo re
 
 El sistema incorpora procesamiento en Python y comunicación serial con un Arduino Uno, que opera como módulo de salida física a través de LEDs indicadores.
 
-**Objetivo**
+## **Objetivo**
 
 Demostrar la integración entre:
 
@@ -15,7 +15,7 @@ Demostrar la integración entre:
 * Comunicación serial
 * Sistemas embebidos
 
-**Flujo de funcionamiento.**
+## **Flujo de funcionamiento.**
 
 Cámara Web
 -->
@@ -31,7 +31,7 @@ Comunicación serial
 -->
 Control de LEDs con Arduino
 
-**Fundamento Técnico.**
+## **Fundamento Técnico.**
 
 **1. Captura de Video.**
 
@@ -114,7 +114,7 @@ finally:
     arduino.close()
 ```
 
-**Requisitos del Sistema**
+## **Requisitos del Sistema**
 
 **💻 Requisitos de Software**
 
@@ -139,18 +139,18 @@ pip install opencv-python mediapipe numpy pyserial
 * Protoboard
 * Cables jumper
 
-**Resultados Observados**
+## **Resultados Observados**
 
 * Detección estable con buena iluminación
 * Baja latencia serial
 * Respuesta inmediata del hardware
 * Apagado seguro automático
 
-**Conclusión.**
+## **Conclusión.**
 
 Este proyecto demuestra una integración funcional entre visión por computadora y sistemas embebidos, utilizando un enfoque geométrico eficiente para clasificación de postura.
 
-**Autores**
+## **Autores**
 
 * Karen Stefania Rivera Carrero
 * Lina Marcela Contreras Sanabria
