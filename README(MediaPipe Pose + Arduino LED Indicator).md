@@ -136,5 +136,10 @@ pip install opencv-python mediapipe numpy pyserial
 * Protoboard
 * Cables jumper
 
+Resultados Observados
 
+* Detección estable con buena iluminación
+* Baja latencia serial
+* Respuesta inmediata del hardware
+* Apagado seguro automático
 
