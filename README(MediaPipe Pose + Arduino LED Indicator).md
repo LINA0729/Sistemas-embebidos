@@ -32,13 +32,65 @@ Comunicación serial
 Control de LEDs con Arduino
 
 Fundamento Técnico
-1. Captura de Video
+1. Captura de Video.
 
 Se utiliza la librería OpenCV: 
-
-
 ```python
 cap = cv2.VideoCapture(0)
 ```
+Cada frame es procesado individualmente.
 
+2. Detección de Landmarks Corporales.
+Se utiliza: MediaPipe Pose
+
+Este modelo tiene la capacidad de identificar 33 puntos anatómicos del cuerpo humano.
+
+Para el proyecto, se emplean:
+* Cadera
+* Rodilla
+* Tobillo
+  
+3. Cálculo Geométrico del Ángulo
+
+Se calcula el ángulo en la rodilla mediante producto punto:
+
+𝜃
+=
+cos
+⁡
+−
+1
+(
+𝐵
+𝐴
+⃗
+⋅
+𝐵
+𝐶
+⃗
+∣
+𝐵
+𝐴
+⃗
+∣
+∣
+𝐵
+𝐶
+⃗
+∣
+)
+θ=cos
+−1
+(
+∣
+BA
+∣∣
+BC
+∣
+BA
+⋅
+BC
+	​
+
+)
 
