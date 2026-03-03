@@ -58,6 +58,7 @@ Se calcula el ángulo en la rodilla mediante producto punto:
 $$
 \theta = \cos^{-1}\left(\frac{\vec{BA}\cdot\vec{BC}}{|\vec{BA}||\vec{BC}|}\right)
 $$
+
 Donde:
 
 A = Cadera
@@ -69,6 +70,7 @@ C = Tobillo
 Se implementa con NumPy.
 
 4. Criterio de Clasificación
+   
 | Ángulo  | Postura |
 |----------|----------|
 | > 160°   | PARADA   |
@@ -113,6 +115,7 @@ finally:
 ```
 
 Requisitos del Sistema
+
 💻 Requisitos de Software
 
 * Python 3.11
