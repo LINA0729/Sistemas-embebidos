@@ -16,6 +16,7 @@ Demostrar la integración entre:
 * Sistemas embebidos
 
 Flujo de funcionamiento.
+
 Cámara Web
 -->
 Procesamiento en Python
@@ -29,3 +30,15 @@ Clasificación de postura
 Comunicación serial
 -->
 Control de LEDs con Arduino
+
+Fundamento Técnico
+1. Captura de Video
+
+Se utiliza la librería OpenCV: 
+
+
+```python
+cap = cv2.VideoCapture(0)
+```
+
+
