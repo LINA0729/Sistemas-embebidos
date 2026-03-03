@@ -50,6 +50,9 @@ Para el proyecto, se emplean:
 * Cadera
 * Rodilla
 * Tobillo
+
+  <img width="220" height="242" alt="image" src="https://github.com/user-attachments/assets/eee6083a-d97f-49b9-ac4d-7ad16c5930ae" />
+
   
 **3. Cálculo Geométrico del Ángulo**
 
@@ -95,6 +98,10 @@ arduino = serial.Serial('COM3', 9600)
 | 'R'      | Persona parada  |
 | 'G'      | Persona sentada |
 | 'X'      | Apagar LEDs     |
+
+<img width="407" height="782" alt="image" src="https://github.com/user-attachments/assets/0b31cbb9-abf0-4b80-9da7-46079a82479e" />
+<img width="592" height="800" alt="image" src="https://github.com/user-attachments/assets/2b94215f-4fc8-4dae-b41e-e7e58035434b" />
+
 
 **6. Control Embebido**
 
