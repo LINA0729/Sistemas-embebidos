@@ -151,8 +151,8 @@ pip install opencv-python mediapipe numpy pyserial
 Este proyecto demuestra una integración funcional entre visión por computadora y sistemas embebidos, utilizando un enfoque geométrico eficiente para clasificación de postura.
 
 **Autores**
-Karen Stefania Rivera Carrero
-Lina Marcela Contreras Sanabria
-Carloa Alberto Castro Castillo
 
-Es una solución ligera, escalable y aplicable a monitoreo ergonómico e interacción humano-máquina.
+* Karen Stefania Rivera Carrero
+* Lina Marcela Contreras Sanabria
+* Carloa Alberto Castro Castillo
+
