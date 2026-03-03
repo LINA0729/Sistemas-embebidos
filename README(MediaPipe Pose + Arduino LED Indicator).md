@@ -1,4 +1,4 @@
-#**Sistema de Detección de Postura con Visión Artificial y Control Embebido**
+#**Sistema de Detección de Postura con Visión Artificial y Control Embebido**#
 
 **Descripción General.**
 
