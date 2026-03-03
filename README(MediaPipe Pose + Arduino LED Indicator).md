@@ -54,43 +54,8 @@ Para el proyecto, se emplean:
 
 Se calcula el ángulo en la rodilla mediante producto punto:
 
-𝜃
-=
-cos
-⁡
-−
-1
-(
-𝐵
-𝐴
-⃗
-⋅
-𝐵
-𝐶
-⃗
-∣
-𝐵
-𝐴
-⃗
-∣
-∣
-𝐵
-𝐶
-⃗
-∣
-)
-θ=cos
-−1
-(
-∣
-BA
-∣∣
-BC
-∣
-BA
-⋅
-BC
-	​
+$$
+\theta = \cos^{-1}\left(\frac{\vec{BA}\cdot\vec{BC}}{|\vec{BA}||\vec{BC}|}\right)
+$$
 
-)
 
