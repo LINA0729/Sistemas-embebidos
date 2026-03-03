@@ -1,6 +1,6 @@
 # **Sistema de Detección de Postura con Visión Artificial y Control Embebido**
 
-**Descripción General.**
+## **Descripción General.**
 
 Este proyecto pone en marcha un sistema de detección de la postura en tiempo real que permite saber si una persona está sentada o de pie, mediante visión por computadora y procesamiento geométrico de puntos del cuerpo.
 
