@@ -155,6 +155,8 @@ pip install opencv-python mediapipe numpy pyserial
 * Respuesta inmediata del hardware
 * Apagado seguro automático
 
+Video funcinamiento final: https://youtube.com/shorts/lY-rCZDFeJQ?feature=share
+
 ## **Conclusión.**
 
 Este proyecto demuestra una integración funcional entre visión por computadora y sistemas embebidos, utilizando un enfoque geométrico eficiente para clasificación de postura.
