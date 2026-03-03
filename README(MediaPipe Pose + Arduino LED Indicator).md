@@ -16,3 +16,16 @@ Demostrar la integración entre:
 * Sistemas embebidos
 
 Flujo de funcionamiento.
+Cámara Web
+-->
+Procesamiento en Python
+-->
+Detección de pose con MediaPipe
+-->
+Cálculo del ángulo de la rodilla
+-->
+Clasificación de postura
+-->
+Comunicación serial
+-->
+Control de LEDs con Arduino
