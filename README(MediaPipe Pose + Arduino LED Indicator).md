@@ -123,7 +123,8 @@ Requisitos del Sistema
 * Arduino IDE
 
 Instalación:
-```pythonpip install opencv-python mediapipe numpy pyserial
+```
+pythonpip install opencv-python mediapipe numpy pyserial
 ```
 
 🔌 Requisitos de Hardware
