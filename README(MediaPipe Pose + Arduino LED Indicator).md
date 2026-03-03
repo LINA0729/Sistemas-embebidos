@@ -139,6 +139,8 @@ pip install opencv-python mediapipe numpy pyserial
 * Protoboard
 * Cables jumper
 
+  <img width="357" height="456" alt="image" src="https://github.com/user-attachments/assets/b7ebf556-8bb7-470d-a13d-bb0427feb13d" />
+
 ## **Resultados Observados**
 
 * Detección estable con buena iluminación
