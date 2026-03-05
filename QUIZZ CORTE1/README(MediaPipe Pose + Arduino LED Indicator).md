@@ -165,5 +165,5 @@ Este proyecto demuestra una integración funcional entre visión por computadora
 
 * Karen Stefania Rivera Carrero
 * Lina Marcela Contreras Sanabria
-* Carloa Alberto Castro Castillo
+* Carlos Alberto Castro Castillo
 
