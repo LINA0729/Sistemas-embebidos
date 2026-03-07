@@ -30,3 +30,16 @@ Más adelante, el modelo de aprendizaje automático que se ha entrenado antes co
 MediaPipe posibilitaría el procesamiento efectivo de las imágenes y la identificación de componentes como partes del cuerpo o personas, en tanto que el modelo de clasificación se ocuparía de identificar los elementos específicos del laboratorio.
 
 Por último, el sistema presentaría en la pantalla el nombre del elemento detectado y un nivel de confianza en la clasificación.
+
+
+**3. ¿Cómo reconocería el sistema la velocidad de las personas en el laboratorio?**
+
+La velocidad de las personas se identificaría mediante el uso de MediaPipe Pose, una herramienta que posibilita la detección en tiempo real de los puntos esenciales del cuerpo humano.
+
+El sistema distinguiría diversas áreas del cuerpo, como pies, caderas, hombros y cabeza, y anotaría la ubicación de cada una en cada fotograma del video grabado. Luego se calcularía cómo se mueven estos puntos de una imagen a la siguiente.
+
+A través de MediaPipe Pose, una herramienta que permite identificar en tiempo real los puntos claves del cuerpo humano, se puede determinar la velocidad de las personas.
+
+El sistema identificará diferentes partes del cuerpo, como los pies, las caderas, los hombros y la cabeza, y registrará la posición de cada área en cada fotograma del video grabado. Después, se calcularía cómo estos puntos se desplazan de una imagen a la otra.
+
+
