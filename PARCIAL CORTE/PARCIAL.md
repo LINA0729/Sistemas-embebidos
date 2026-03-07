@@ -26,3 +26,7 @@ Para desarrollar el sistema de clasificaciones, se emplearían modelos de aprend
 El sistema empezaría a grabar video usando una cámara que estuviera conectada al ordenador. Se procesarían todas las imágenes capturadas con métodos de visión artificial para determinar los rasgos importantes de los objetos que se encuentran en el laboratorio.
 
 Más adelante, el modelo de aprendizaje automático que se ha entrenado antes con la base de datos de imágenes podría clasificar los objetos identificados y establecer a qué categoría pertenecen, como un osciloscopio, un multímetro o un router.
+
+MediaPipe posibilitaría el procesamiento efectivo de las imágenes y la identificación de componentes como partes del cuerpo o personas, en tanto que el modelo de clasificación se ocuparía de identificar los elementos específicos del laboratorio.
+
+Por último, el sistema presentaría en la pantalla el nombre del elemento detectado y un nivel de confianza en la clasificación.
