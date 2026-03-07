@@ -19,6 +19,10 @@ En primer lugar, se determinarían los componentes que quieren ser reconocidos, 
 Las imágenes se clasificarían en carpetas, según el tipo de dispositivo, y se etiquetarían con herramientas para la anotación de imágenes. Por último, los datos se guardarían en una base de datos o un repositorio estructurado que posibilitaría su acceso para entrenar modelos de visión artificial. Más tarde, este conjunto de datos será empleado para capacitar al sistema responsable del reconocimiento automático de los componentes del laboratorio.
 
 
-**2. ¿Cómo crearía un sistema clasificador de elementos con la librería MediaPipe?
+**2. ¿Cómo crearía un sistema clasificador de elementos con la librería MediaPipe?**
 
-Para crear el sistema se utilizara la libreria de Mediapipe junto con opencv y modelos de aprendizaje automatico para el analisis de iamgenes en tiempo real. El sistema iniciaria capturando video con una camara. 
+Para desarrollar el sistema de clasificaciones, se emplearían modelos de aprendizaje automático, la librería MediaPipe y OpenCV para examinar imágenes en tiempo real.
+
+El sistema empezaría a grabar video usando una cámara que estuviera conectada al ordenador. Se procesarían todas las imágenes capturadas con métodos de visión artificial para determinar los rasgos importantes de los objetos que se encuentran en el laboratorio.
+
+Más adelante, el modelo de aprendizaje automático que se ha entrenado antes con la base de datos de imágenes podría clasificar los objetos identificados y establecer a qué categoría pertenecen, como un osciloscopio, un multímetro o un router.
