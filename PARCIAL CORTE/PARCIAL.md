@@ -2,9 +2,22 @@
 
 ## **Conceptual**
 
-**¿que son los microcontroladores?**
+**1. ¿que son los microcontroladores y los microprosesadores?**
 
+Microcontroladores:
+Son circuitos integrados que se pueden programar y que contienen, en un solo chip, la unidad central de procesamiento (CPU), la memoria y los periféricos. En los sistemas embebidos se emplean para supervisar tareas concretas. 
 
+Microprocesadores:
+Son circuitos que cumplen las funciones de la CPU, aunque requieren memoria y dispositivos periféricos externos. Se emplean en su mayoria en computadoras y sistemas de gran rendimiento. 
+
+**2. Defina la arquitectura Von Neumann y la arquitectura de Harvard además: exponer sus características, ventajas y diferencias.**
+
+## Arquitectura Von Neumann vs Arquitectura Harvard
+
+| Arquitectura | Características | Ventajas | Diferencias |
+|---|---|---|---|
+| **Von Neumann** | - Usa una sola memoria para datos e instrucciones.<br>- La CPU procesa instrucciones de forma secuencial.<br>- Utiliza un solo bus para transferir datos y programas. | - Diseño simple.<br>- Menor complejidad de hardware.<br>- Fácil implementación en computadores de propósito general. | - Datos e instrucciones comparten la misma memoria.<br>- Acceso más lento debido a un solo bus. |
+| **Harvard** | - Usa memorias separadas para datos e instrucciones.<br>- Tiene buses independientes.<br>- Permite acceder a datos e instrucciones al mismo tiempo. | - Mayor velocidad de procesamiento.<br>- Mejor rendimiento en sistemas embebidos.<br>- Mayor eficiencia. | - Datos e instrucciones se almacenan en memorias diferentes.<br>- Permite procesamiento simultáneo y más rápido. |
 
 ## **Diseño**
 
