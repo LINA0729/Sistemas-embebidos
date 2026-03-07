@@ -43,3 +43,15 @@ A través de MediaPipe Pose, una herramienta que permite identificar en tiempo r
 El sistema identificará diferentes partes del cuerpo, como los pies, las caderas, los hombros y la cabeza, y registrará la posición de cada área en cada fotograma del video grabado. Después, se calcularía cómo estos puntos se desplazan de una imagen a la otra.
 
 
+**4. ¿Cómo haría un despliegue en una plataforma web o móvil?**
+
+La estructura del sistema consistiría en una interfaz de usuario, un backend y una base de datos.
+
+El procesamiento de imágenes, la implementación del modelo de reconocimiento y el análisis del movimiento humano se llevarían a cabo en el backend mediante herramientas como OpenCV, MediaPipe y Python.
+
+La base de datos guardaría las fotografías empleadas durante el entrenamiento, además de los registros de eventos y detección producidos por el sistema.
+
+Por último, se crearía una interfaz web o móvil que posibilite observar el video en tiempo real, las alertas creadas por el sistema y los objetos detectados. Se podría crear esta interfaz empleando tecnologías como Flutter, React o aplicaciones web fundamentadas en HTML y JavaScript.
+
+Así, los usuarios tendrían la posibilidad de supervisar el laboratorio a distancia y recibir datos acerca del uso de los equipos y el comportamiento de las personas en el ambiente.
+
