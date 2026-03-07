@@ -10,16 +10,18 @@ Son circuitos integrados que se pueden programar y que contienen, en un solo chi
 **Microprocesadores:**
 Son circuitos que cumplen las funciones de la CPU, aunque requieren memoria y dispositivos periféricos externos. Se emplean en su mayoria en computadoras y sistemas de gran rendimiento. 
 
+
 ### **2. Defina la arquitectura Von Neumann y la arquitectura de Harvard además: exponer sus características, ventajas y diferencias.**
 
-## Arquitectura Von Neumann vs Arquitectura Harvard
+**Arquitectura Von Neumann vs Arquitectura Harvard**
 
 | Arquitectura | Características | Ventajas | Diferencias |
 |---|---|---|---|
 | **Von Neumann** | - Emplea una única memoria para las instrucciones y los datos.<br>- La CPU tramita las instrucciones de manera secuencial.<br>- Para la transferencia de datos y programas, emplea un único bus. | - Diseño sencillo.<br>- Menor complejidad de hardware.<br>- Se puede implementar con facilidad en computadoras de uso general. | - Instrucciones y datos comparten la misma memoria.<br>- Un solo bus provoca un acceso más lento. |
 | **Harvard** | - Utiliza memorias distintas para las instrucciones y los datos.<br>- Posee buses independientes.<br>- Posibilita el acceso simultáneo a instrucciones y datos. | - Procesamiento más rápido.<br>- Mejores resultados en sistemas embebidos.<br>- Eficiencia más alta. | - Las instrucciones y los datos se guardan en memorias distintas.<br>- Permite un procesamiento simultáneo y más veloz. |
 
-**3. ¿Que son los procesadores tipos RISC y tipo CISC?.**
+
+### **3. ¿Que son los procesadores tipos RISC y tipo CISC?.**
 
 **RISC:**
 Procesadores con instrucciones mínimas y sencillas, lo que posibilita una mayor rapidez y eficiencia. 
@@ -27,18 +29,21 @@ Procesadores con instrucciones mínimas y sencillas, lo que posibilita una mayor
 **CISC:**
 Procesadores con instrucciones complejas, capaces de realizar varias operaciones en una sola instrucción.
 
-**4. ¿Que es ARM?**
+
+### **4. ¿Que es ARM?**
 
 ARM es un conjunto de arquitecturas de procesadores que se fundamenta en el diseño RISC (Reduced Instruction Set Computer). Su propósito es optimizar el rendimiento y la eficiencia energética en dispositivos con recursos escasos. Se usa mucho en dispositivos móviles, sistemas embebidos e Internet de las cosas (IoT).
 La arquitectura ARM proporciona un consumo energético reducido, lo que posibilita que los dispositivos tengan una mayor duración de la batería. Asimismo, usa instrucciones sencillas que optimizan la eficacia del procesamiento, producen menos calor y tienen un menor coste de fabricación. 
 
-**5. ¿Cuál es la arquitectura de Arduino y qué características tiene?**
+
+### **5. ¿Cuál es la arquitectura de Arduino y qué características tiene?**
 
 Arduino emplea microcontroladores que se fundamentan en la arquitectura **AVR**. Esta última sigue el modelo **Harvard** y hace uso de un grupo de instrucciones **RISC**. Esta arquitectura posibilita la existencia de memorias individuales para los datos y el programa, lo que optimiza la eficacia del procesamiento.
 
 Las principales caracteristicas son que tiene entradas y salidas analógicas y digitales, comunicación serie, temporizadores y consume poca energía. Asimismo, es fácil programarlo y se usa mucho para hacer proyectos electrónicos, sistemas embebidos y aplicaciones de IoT.
 
-**6. ¿Cuál es la arquitectura del PIC 16F887 y sus principales características?**
+
+### **6. ¿Cuál es la arquitectura del PIC 16F887 y sus principales características?**
 
 El **PIC 16F887** es un microcontrolador de la familia PIC, creado por Microchip. Su arquitectura, que sigue el modelo **Harvard**, está basada en RISC y emplea memorias distintas para datos y programa.
 
@@ -46,7 +51,7 @@ Este microcontrolador tiene como caracteristicas principales la capacidad de con
 
 ## **Diseño**
 
-**1. ¿Cómo plantearía el desarrollo de una base de datos con imágenes de los diferentes elementos de un laboratorio de telecomunicaciones?**
+### **1. ¿Cómo plantearía el desarrollo de una base de datos con imágenes de los diferentes elementos de un laboratorio de telecomunicaciones?**
 
 La creación de la base de datos se llevaría a cabo por medio de un procedimiento que consiste en recolectar, organizar y etiquetar imágenes de los variados equipos que se encuentran en el laboratorio de telecomunicaciones.
 En primer lugar, se determinarían los componentes que quieren ser reconocidos, los cuales incluyen osciloscopios, routers, switches, generadores de señal, multímetros y cables de red. Con el objetivo de conseguir un conjunto de datos diverso que favorezca la mejora del entrenamiento del modelo de reconocimiento, luego se tomarían numerosas fotografías de cada elemento desde distintas distancias, perspectivas y condiciones de iluminación.
@@ -54,7 +59,7 @@ En primer lugar, se determinarían los componentes que quieren ser reconocidos, 
 Las imágenes se clasificarían en carpetas, según el tipo de dispositivo, y se etiquetarían con herramientas para la anotación de imágenes. Por último, los datos se guardarían en una base de datos o un repositorio estructurado que posibilitaría su acceso para entrenar modelos de visión artificial. Más tarde, este conjunto de datos será empleado para capacitar al sistema responsable del reconocimiento automático de los componentes del laboratorio.
 
 
-**2. ¿Cómo crearía un sistema clasificador de elementos con la librería MediaPipe?**
+### **2. ¿Cómo crearía un sistema clasificador de elementos con la librería MediaPipe?**
 
 Para desarrollar el sistema de clasificaciones, se emplearían modelos de aprendizaje automático, la librería MediaPipe y OpenCV para examinar imágenes en tiempo real.
 
@@ -67,7 +72,7 @@ MediaPipe posibilitaría el procesamiento efectivo de las imágenes y la identif
 Por último, el sistema presentaría en la pantalla el nombre del elemento detectado y un nivel de confianza en la clasificación.
 
 
-**3. ¿Cómo reconocería el sistema la velocidad de las personas en el laboratorio?**
+### **3. ¿Cómo reconocería el sistema la velocidad de las personas en el laboratorio?**
 
 La velocidad de las personas se identificaría mediante el uso de MediaPipe Pose, una herramienta que posibilita la detección en tiempo real de los puntos esenciales del cuerpo humano.
 
@@ -78,7 +83,7 @@ A través de MediaPipe Pose, una herramienta que permite identificar en tiempo r
 El sistema identificará diferentes partes del cuerpo, como los pies, las caderas, los hombros y la cabeza, y registrará la posición de cada área en cada fotograma del video grabado. Después, se calcularía cómo estos puntos se desplazan de una imagen a la otra.
 
 
-**4. ¿Cómo haría un despliegue en una plataforma web o móvil?**
+### **4. ¿Cómo haría un despliegue en una plataforma web o móvil?**
 
 La estructura del sistema consistiría en una interfaz de usuario, un backend y una base de datos.
 
