@@ -16,8 +16,8 @@ Son circuitos que cumplen las funciones de la CPU, aunque requieren memoria y di
 
 | Arquitectura | Características | Ventajas | Diferencias |
 |---|---|---|---|
-| **Von Neumann** | - Usa una sola memoria para datos e instrucciones.<br>- La CPU procesa instrucciones de forma secuencial.<br>- Utiliza un solo bus para transferir datos y programas. | - Diseño simple.<br>- Menor complejidad de hardware.<br>- Fácil implementación en computadores de propósito general. | - Datos e instrucciones comparten la misma memoria.<br>- Acceso más lento debido a un solo bus. |
-| **Harvard** | - Usa memorias separadas para datos e instrucciones.<br>- Tiene buses independientes.<br>- Permite acceder a datos e instrucciones al mismo tiempo. | - Mayor velocidad de procesamiento.<br>- Mejor rendimiento en sistemas embebidos.<br>- Mayor eficiencia. | - Datos e instrucciones se almacenan en memorias diferentes.<br>- Permite procesamiento simultáneo y más rápido. |
+| **Von Neumann** | - Emplea una única memoria para las instrucciones y los datos.<br>- La CPU tramita las instrucciones de manera secuencial.<br>- Para la transferencia de datos y programas, emplea un único bus. | - Diseño sencillo.<br>- Menor complejidad de hardware.<br>- Se puede implementar con facilidad en computadoras de uso general. | - Instrucciones y datos comparten la misma memoria.<br>- Un solo bus provoca un acceso más lento. |
+| **Harvard** | - Utiliza memorias distintas para las instrucciones y los datos.<br>- Posee buses independientes.<br>- Posibilita el acceso simultáneo a instrucciones y datos. | - Procesamiento más rápido.<br>- Mejores resultados en sistemas embebidos.<br>- Eficiencia más alta. | - Las instrucciones y los datos se guardan en memorias distintas.<br>- Permite un procesamiento simultáneo y más veloz. |
 
 ## **Diseño**
 
