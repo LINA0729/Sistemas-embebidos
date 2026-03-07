@@ -1,4 +1,4 @@
-# **PARCIAL CORTE1**
+# **PARCIAL CORTE 1**
 
 ## **Conceptual**
 
@@ -94,4 +94,24 @@ La base de datos guardaría las fotografías empleadas durante el entrenamiento,
 Por último, se crearía una interfaz web o móvil que posibilite observar el video en tiempo real, las alertas creadas por el sistema y los objetos detectados. Se podría crear esta interfaz empleando tecnologías como Flutter, React o aplicaciones web fundamentadas en HTML y JavaScript.
 
 Así, los usuarios tendrían la posibilidad de supervisar el laboratorio a distancia y recibir datos acerca del uso de los equipos y el comportamiento de las personas en el ambiente.
+
+## **Empirica**
+
+Explicación del codigo.
+
+Se implementa un algoritmo sencillo en Python que utiliza la cámara web para detectar las manos en tiempo real y mostrar únicamente los puntos correspondientes al pulgar. Para ello se utiliza la librería MediaPi.
+
+El algoritmo filtra únicamente los puntos del pulgar y los dibuja sobre la imagen capturada por la cámara.
+
+---
+
+### Librerías utilizadas
+
+- OpenCV: Captura y procesamiento de video.
+- MediaPipe: Detección de manos y puntos clave.
+
+```python
+import cv2
+import mediapipe as mp
+
 
