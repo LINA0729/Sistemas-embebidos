@@ -5,9 +5,6 @@
 **¿que son los microcontroladores?**
 
 
-**Defina la arquitectura Von 
-
-
 
 ## **Diseño**
 
