@@ -103,8 +103,6 @@ Se implementa un algoritmo sencillo en Python que utiliza la cámara web para de
 
 El algoritmo filtra únicamente los puntos del pulgar y los dibuja sobre la imagen capturada por la cámara.
 
----
-
 ### Librerías utilizadas
 
 - OpenCV: Captura y procesamiento de video.
@@ -113,5 +111,34 @@ El algoritmo filtra únicamente los puntos del pulgar y los dibuja sobre la imag
 ```python
 import cv2
 import mediapipe as mp
+```
+
+### Inicio del detector
+
+Se configura el modelo para detectar hasta dos manos y realizar seguimiento en tiempo real.
+
+```python
+detector = mp_hands.Hands(
+    static_image_mode=False,
+    max_num_hands=2,
+    min_detection_confidence=0.7,
+    min_tracking_confidence=0.7
+)
+```
+
+### Se identificación de los puntos del pulgar
+
+MediaPipe identifica 21 puntos en cada mano, pero solo se utilizan los puntos correspondientes al pulgar.
+
+| ID | Parte del Pulgar |
+|----|------------------|
+| 1  | Base             |
+| 2  | Articulación     |
+| 3  | Articulación     |
+| 4  | Punta            |
 
 
+Estos se almacenan:
+```python
+PULGAR_IDS = [1, 2, 3, 4]
+```
