@@ -1,6 +1,6 @@
-#**PARCIAL CORTE1**
+# **PARCIAL CORTE1**
 
-##**Conceptual**
+## **Conceptual**
 
 **¿que son los microcontroladores?**
 
@@ -11,7 +11,7 @@
 
 
 
-##**Diseño**
+## **Diseño**
 
 **1. ¿Cómo plantearía el desarrollo de una base de datos con imágenes de los diferentes elementos de un laboratorio de telecomunicaciones?**
 
