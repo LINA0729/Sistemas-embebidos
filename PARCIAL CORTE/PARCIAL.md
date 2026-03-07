@@ -4,10 +4,10 @@
 
 **1. ¿que son los microcontroladores y los microprosesadores?**
 
-Microcontroladores:
+**Microcontroladores:**
 Son circuitos integrados que se pueden programar y que contienen, en un solo chip, la unidad central de procesamiento (CPU), la memoria y los periféricos. En los sistemas embebidos se emplean para supervisar tareas concretas. 
 
-Microprocesadores:
+**Microprocesadores:**
 Son circuitos que cumplen las funciones de la CPU, aunque requieren memoria y dispositivos periféricos externos. Se emplean en su mayoria en computadoras y sistemas de gran rendimiento. 
 
 **2. Defina la arquitectura Von Neumann y la arquitectura de Harvard además: exponer sus características, ventajas y diferencias.**
@@ -18,6 +18,31 @@ Son circuitos que cumplen las funciones de la CPU, aunque requieren memoria y di
 |---|---|---|---|
 | **Von Neumann** | - Emplea una única memoria para las instrucciones y los datos.<br>- La CPU tramita las instrucciones de manera secuencial.<br>- Para la transferencia de datos y programas, emplea un único bus. | - Diseño sencillo.<br>- Menor complejidad de hardware.<br>- Se puede implementar con facilidad en computadoras de uso general. | - Instrucciones y datos comparten la misma memoria.<br>- Un solo bus provoca un acceso más lento. |
 | **Harvard** | - Utiliza memorias distintas para las instrucciones y los datos.<br>- Posee buses independientes.<br>- Posibilita el acceso simultáneo a instrucciones y datos. | - Procesamiento más rápido.<br>- Mejores resultados en sistemas embebidos.<br>- Eficiencia más alta. | - Las instrucciones y los datos se guardan en memorias distintas.<br>- Permite un procesamiento simultáneo y más veloz. |
+
+**3. ¿Que son los procesadores tipos RISC y tipo CISC?.**
+
+**RISC:**
+Procesadores con instrucciones mínimas y sencillas, lo que posibilita una mayor rapidez y eficiencia. 
+
+**CISC:**
+Procesadores con instrucciones complejas, capaces de realizar varias operaciones en una sola instrucción.
+
+**4. ¿Que es ARM?**
+
+ARM es un conjunto de arquitecturas de procesadores que se fundamenta en el diseño RISC (Reduced Instruction Set Computer). Su propósito es optimizar el rendimiento y la eficiencia energética en dispositivos con recursos escasos. Se usa mucho en dispositivos móviles, sistemas embebidos e Internet de las cosas (IoT).
+La arquitectura ARM proporciona un consumo energético reducido, lo que posibilita que los dispositivos tengan una mayor duración de la batería. Asimismo, usa instrucciones sencillas que optimizan la eficacia del procesamiento, producen menos calor y tienen un menor coste de fabricación. 
+
+**5. ¿Cuál es la arquitectura de Arduino y qué características tiene?**
+
+Arduino emplea microcontroladores que se fundamentan en la arquitectura **AVR**. Esta última sigue el modelo **Harvard** y hace uso de un grupo de instrucciones **RISC**. Esta arquitectura posibilita la existencia de memorias individuales para los datos y el programa, lo que optimiza la eficacia del procesamiento.
+
+Las principales caracteristicas son que tiene entradas y salidas analógicas y digitales, comunicación serie, temporizadores y consume poca energía. Asimismo, es fácil programarlo y se usa mucho para hacer proyectos electrónicos, sistemas embebidos y aplicaciones de IoT.
+
+**6. ¿Cuál es la arquitectura del PIC 16F887 y sus principales características?**
+
+El **PIC 16F887** es un microcontrolador de la familia PIC, creado por Microchip. Su arquitectura, que sigue el modelo **Harvard**, está basada en RISC y emplea memorias distintas para datos y programa.
+
+Este microcontrolador tiene como caracteristicas principales la capacidad de controlar distintos aparatos electrónicos, además de tener memoria Flash para guardar programas, de integrar periféricos y de consumir poca energía. Asimismo, por su eficiencia y facilidad de implementación, se usa mucho en proyectos de electrónica, sistemas embebidos y automatización.
 
 ## **Diseño**
 
