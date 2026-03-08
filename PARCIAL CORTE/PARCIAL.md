@@ -142,3 +142,31 @@ Estos se almacenan:
 ```python
 PULGAR_IDS = [1, 2, 3, 4]
 ```
+### Detección del pulgar
+
+El algoritmo examina todos los puntos de referencia identificados en la mano y solamente selecciona aquellos que son del pulgar.
+
+Después, se trazan los puntos y se unen a través de líneas para tener una representación visual de la estructura del dedo.
+```python
+cv2.circle(frame, (x, y), 8, (255, 0, 0), -1)
+```
+Además, se presenta un texto que señala que el dedo pulgar ha sido detectado.
+
+Resultado: https://youtu.be/I-Zqk3_kME4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
