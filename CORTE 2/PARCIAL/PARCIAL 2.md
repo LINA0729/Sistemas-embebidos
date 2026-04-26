@@ -1,4 +1,9 @@
 # PARQUEADERO AUTOMATIZADO CON DETECCIÓN DE VEHÍCULOS
+
+**Curso:** Aplicaciones en Sistemas Embebidos  
+**Universidad:** Fundación Universitaria Compensar  
+**Docente:** Diego Alejandro Barragán Vargas
+**Autores:** Carlos Alberto Castro Castillo, Karen Stefania Rivera Carrero y Lina Marcela Contreras Sanabria.
 ---
 
 # PARTE 1: CONCEPTUAL
@@ -235,24 +240,5 @@ https://youtu.be/TZLvSnj9IYc
 | Comunicación | Monitor Serial | Arduino responde a comandos |
 | YOLO | Video en tiempo real | Detección confiable |
 | Integración | Ciclo completo | Apertura/cierre automático sin errores |
-
----
-
-## 2. Explicación del Código Python (YOLO + Detección)
-
-### Librerías Utilizadas:
-
-```python
-import cv2                          # Procesamiento de video
-import serial                       # Comunicación con Arduino
-import time                         # Control de tiempo
-from ultralytics import YOLO        # Modelo de detección de objetos
-```
-
-| Librería | Función | Uso en Proyecto |
-|---|---|---|
-| **OpenCV** | Captura y procesa video | Lee cámara USB, dibuja cuadros de detección |
-| **PySerial** | Comunicación serial | Envía "OPEN"/"CLOSE" a Arduino |
-| **YOLO** | Detección de objetos | Identifica vehículos en tiempo real |
 
 ---
