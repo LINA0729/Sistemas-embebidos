@@ -32,7 +32,6 @@ YOLO es un algoritmo de visión artificial basado en redes neuronales convolucio
 
 - **Velocidad:** Procesa imágenes completas en una sola pasada
 - **Precisión:** Detecta múltiples objetos simultáneamente
-- **Modelos disponibles:** YOLOv5s (pequeño, rápido), YOLOv5m (medio), YOLOv5l (grande, preciso)
 - **Clases detectadas:** En nuestro caso, vehículos (autos, motos, camiones, buses)
 
 **En el parqueadero:** YOLO identifica vehículos en el video de la cámara la cantidad de espacios libres y ocupados.
