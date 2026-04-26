@@ -84,9 +84,9 @@ Colocar resistencia 10kΩ pull-down entre pin RB y GND
 Ejemplo RB0: +5V ──[Button]── Pin 33, 10kΩ ──── GND
 
 ```
+<img width="900" height="1600" alt="image" src="https://github.com/user-attachments/assets/362a04e0-eade-4ab6-b5a8-eddae6ee37a1" />
 
-<img width="900" height="1600" alt="WhatsApp Image 2026-04-25 at 7 46 42 PM" src="https://github.com/user-attachments/assets/d709174c-495c-4f2d-9e59-0cfbc64b4bd7" />
-<img width="900" height="1600" alt="WhatsApp Image 2026-04-25 at 7 45 18 PM" src="https://github.com/user-attachments/assets/6cdf4117-8c6c-42a0-8b37-a5399641a42d" />
+<img width="900" height="1600" alt="image" src="https://github.com/user-attachments/assets/ca957148-23d0-4551-87c5-668202f2d943" />
 
 
 ### Conclusiones
