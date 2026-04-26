@@ -3,6 +3,7 @@
 **Curso:** Aplicaciones en Sistemas Embebidos  
 **Universidad:** Fundación Universitaria Compensar  
 **Docente:** Diego Alejandro Barragán Vargas
+**Autores:** Carlos Alberto Castro Castillo, Karen Stefania Rivera Carrero y Lina Marcela Contreras Sanabria.
 
 ---
 
